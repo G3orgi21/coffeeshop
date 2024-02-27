@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 24px;
+    // background-color: #ff4ac9;
+    // gradient bg color, bottom to top from #ff4ac9 to #ff4ac9
+    background: linear-gradient(180deg, #ff4ac9 0%, #d00593 100%);
+    a{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        font-size: 1.5rem;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
